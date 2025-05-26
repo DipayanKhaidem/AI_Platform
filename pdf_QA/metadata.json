@@ -1,0 +1,326 @@
+[
+  {
+    "text": "RV College of Engineering",
+    "font_size": 12.960000038146973,
+    "bbox": [
+      282.1000061035156,
+      65.51263427734375,
+      429.9511413574219,
+      79.85935974121094
+    ],
+    "page_num": 1,
+    "font": "Times New Roman,Bold"
+  },
+  {
+    "text": "(An autonomous institution affiliated to VTU, Belagavi)",
+    "font_size": 11.039999961853027,
+    "bbox": [
+      229.05999755859375,
+      80.42337036132812,
+      492.30999755859375,
+      92.6446533203125
+    ],
+    "page_num": 1,
+    "font": "Times New Roman,Bold"
+  },
+  {
+    "text": "Department of Master of Computer Applications",
+    "font_size": 12.960000038146973,
+    "bbox": [
+      225.22000122070312,
+      104.87261962890625,
+      499.75,
+      119.21934509277344
+    ],
+    "page_num": 1,
+    "font": "Times New Roman,Bold"
+  },
+  {
+    "text": "IV SEMESTER – MCA491P Major Project",
+    "font_size": 11.039999961853027,
+    "bbox": [
+      203.58999633789062,
+      157.01333618164062,
+      411.1400146484375,
+      169.234619140625
+    ],
+    "page_num": 1,
+    "font": "Times New Roman,Bold"
+  },
+  {
+    "text": "This project integrates two advanced AI tools: a Code Generator & Debugge",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      243.53797912597656,
+      475.05596923828125,
+      256.8219909667969
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "Augmented QA Bot. The domain spans AI-assisted software development and intelligent document",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      257.4580383300781,
+      570.9481201171875,
+      270.7420349121094
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "retrieval, which are increasingly crucial in boosting developer productivity and automating",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      271.13800048828125,
+      570.6980590820312,
+      284.4219970703125
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "information access. Existing models like CodeT5, StarCoder, and GPT-3.5/4 have shown promise in",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      285.0880126953125,
+      571.130126953125,
+      298.37200927734375
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "code generation and natural language understanding, but often lack domain-specific adaptability and",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      298.76800537109375,
+      571.1660766601562,
+      312.052001953125
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "effective debugging. Similarly, traditional QA systems do not provide context-aware, document-",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      312.6880187988281,
+      567.9759521484375,
+      325.9720153808594
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "specific answers—especially in multilingual scenarios. This project addresses these gaps by",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      326.3680114746094,
+      571.2461547851562,
+      339.6520080566406
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "combining code intelligence and semantic search.",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      340.52801513671875,
+      316.01995849609375,
+      353.81201171875
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "The system uses pre-trained LLMs for code tasks and RAG (Retrieval-Augmented Generation) for",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      381.8280029296875,
+      571.2760009765625,
+      395.11199951171875
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "document QA. The methodology includes collecting open-source code datasets, fine-tuning models,",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      395.7480163574219,
+      571.2100830078125,
+      409.0320129394531
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "implementing a web interface, and integrating vector search (via FAISS/Chroma) for document",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      409.4280090332031,
+      570.6240844726562,
+      422.7120056152344
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "chunk retrieval. Technologies used include Python, Hugging Face Transformers, LangChain, OpenAI",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      423.1080017089844,
+      571.0519409179688,
+      436.3919982910156
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "API, PyMuPDF, Sentence Transformers, and React or Flask for the frontend. Modules include:",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      437.02801513671875,
+      571.0160522460938,
+      450.31201171875
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "dataset collection, LLM integration, code generation/debugging, document upload & parsing, chunk",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      450.72802734375,
+      570.696044921875,
+      464.01202392578125
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "embedding, vector storage, and multilingual QA",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      464.88800048828125,
+      310.3960266113281,
+      478.1719970703125
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "The expected outcomes include a working full-stack application capable of generating and debugging",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      506.1679992675781,
+      571.088134765625,
+      519.4519653320312
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "code from problem statements, and answering any question from uploaded PDFs in English or",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      520.0880126953125,
+      570.6480712890625,
+      533.3720092773438
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "Manipuri. The system will display retrieved source paragraphs",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      533.7979736328125,
+      398.968017578125,
+      547.0819702148438
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "as references for answers. With",
+    "font_size": 12.0,
+    "bbox": [
+      405.0199890136719,
+      533.7979736328125,
+      571.0280151367188,
+      547.0819702148438
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "integrated LLMs, we aim for an efficiency of over 90% in answer relevance and high success rates in",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      547.718017578125,
+      571.1422729492188,
+      561.0020141601562
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "code generation/debugging tasks",
+    "font_size": 12.0,
+    "bbox": [
+      78.02400207519531,
+      561.6380004882812,
+      235.2239990234375,
+      574.9219970703125
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "making this a robust productivity and learning tool.",
+    "font_size": 12.0,
+    "bbox": [
+      238.4199981689453,
+      561.6380004882812,
+      487.989990234375,
+      574.9219970703125
+    ],
+    "page_num": 1,
+    "font": "Times New Roman"
+  },
+  {
+    "text": "Kh Dipayan Singha(1RV23MC045)",
+    "font_size": 12.0,
+    "bbox": [
+      83.06400299072266,
+      644.218017578125,
+      268.05999755859375,
+      657.5020141601562
+    ],
+    "page_num": 1,
+    "font": "Times New Roman,Bold"
+  }
+]
