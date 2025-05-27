@@ -8,8 +8,6 @@ from typing import List, Dict
 import streamlit as st
 import ollama
 
-embedding_model=SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",device='cpu')
-
 def parse_pdf(file_path:str)->List[Dict]:
     doc=fitz.open(file_path)
     parsed_chunks=[]
@@ -64,14 +62,12 @@ def retrieve_chunks(query: str, index_path: str, metadata_path: str, top_k: int 
     results = [metadata[i] for i in I[0]]
     return results
 
-# -------- ANSWER GENERATION WITH OLLAMA --------
 def generate_answer_ollama(context: List[Dict], query: str, model: str = "llama3") -> str:
     context_text = "\n".join([f"Page {c['page_num']}: {c['text']}" for c in context])
     prompt = f"Context:\n{context_text}\n\nQuestion: {query}\nAnswer:"
     response = ollama.chat(model=model, messages=[{"role": "user", "content": prompt}])
     return response['message']['content']
 
-# -------- STREAMLIT UI --------
 st.title("📄 PDF Question Answering System")
 
 pdf_file = st.file_uploader("Upload a PDF", type="pdf")
