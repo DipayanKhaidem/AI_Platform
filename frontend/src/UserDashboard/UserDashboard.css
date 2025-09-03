@@ -1,0 +1,94 @@
+.dashboard-container {
+  background-color: #ffffff;
+  color: #020202;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #333;
+}
+.brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+
+.logout-button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+.dashboard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  background-color: #f8f7f7;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 320px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-name {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-description {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  color: #0e0d0d;
+}
+
+.feature-btn {
+  background-color: #0c0c0c;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.feature-btn:hover {
+  background-color: #666;
+}
